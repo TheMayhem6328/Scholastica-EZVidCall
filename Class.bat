@@ -6,7 +6,14 @@ rem ======CLASS SELECTION START======
 :start
 cls
 echo Which class are you from?
-echo 4 = IV; 8 = VIII
+echo ================================
+echo 3 = Class III
+echo 4 = Class IV
+echo 5 = Class V
+echo 6 = Class VI (Under Construction)
+echo 7 = Class VII (Under Construction)
+echo 8 = Class VIII (Under Construction)
+echo ================================
 set /p sc=""
 
 :ClassProcessor
@@ -147,8 +154,8 @@ rem ======CLASS III SUBJECT SELECTION START======
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 3B_Math
@@ -159,8 +166,8 @@ if %sub%==3 goto 3B_English
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 3G_Math
@@ -171,8 +178,8 @@ if %sub%==3 goto 3G_English
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 3I_Math
@@ -183,8 +190,8 @@ if %sub%==3 goto 3I_English
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 3M_Math
@@ -200,8 +207,8 @@ rem ======CLASS IV SUBJECT SELECTION START======
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 4B_Math
@@ -212,8 +219,8 @@ if %sub%==3 goto 4B_English
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 4G_Math
@@ -224,8 +231,8 @@ if %sub%==3 goto 4G_English
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 4I_Math
@@ -236,8 +243,8 @@ if %sub%==3 goto 4I_English
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 4M_Math
@@ -248,8 +255,8 @@ if %sub%==3 goto 4M_English
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 4O_Math
@@ -260,8 +267,8 @@ if %sub%==3 goto 4O_English
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 4R_Math
@@ -273,72 +280,72 @@ rem ======CLASS IV SUBJECT SELECTION END======
 
 rem ======CLASS V SUBJECT SELECTION START======
 
-:4B
+:5B
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 5B_Math
 if %sub%==2 goto 5B_Bangla
 if %sub%==3 goto 5B_English
 
-:4G
+:5G
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 5G_Math
 if %sub%==2 goto 5G_Bangla
 if %sub%==3 goto 5G_English
 
-:4I
+:5I
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 5I_Math
 if %sub%==2 goto 5I_Bangla
 if %sub%==3 goto 5I_English
 
-:4M
+:5M
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 5M_Math
 if %sub%==2 goto 5M_Bangla
 if %sub%==3 goto 5M_English
 
-:4O
+:5O
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 5O_Math
 if %sub%==2 goto 5O_Bangla
 if %sub%==3 goto 5O_English
 
-:4R
+:5R
 echo Which subject's class do you want to join?
 echo ==============================
 echo 1 = Maths
-echo 2 = Bangla
-echo 3 = English
+echo 2 = Bangla (Under Construction)
+echo 3 = English (Under Construction)
 echo ==============================
 set /p sub=""
 if %sub%==1 goto 5R_Math
@@ -682,7 +689,7 @@ cls
 echo Class Schedule
 echo =======================================
 echo Class          : IV
-echo Section        : Blue
+echo Section        : Green
 echo Day            : SU
 echo Start Timing   : 03:00 pm (GMT +6)
 echo Finishing Time : 03:40 pm (GMT +6)
@@ -699,7 +706,7 @@ cls
 echo Class Schedule
 echo =======================================
 echo Class          : IV
-echo Section        : Blue
+echo Section        : Indigo
 echo Day            : MO
 echo Start Timing   : 11:00 am (GMT +6)
 echo Finishing Time : 11:40 am (GMT +6)
@@ -763,6 +770,111 @@ start https://zoom.us/j/91057253787?pwd=OHlRalZKNDFDMVc3cEtZUm5EejllQT09
 goto end
 
 :: End Class IV
+
+:: Start Class V
+:5B_Math
+cls
+echo Class Schedule
+echo =======================================
+echo Class          : V
+echo Section        : Blue
+echo Day            : TH
+echo Start Timing   : 09:00 am (GMT +6)
+echo Finishing Time : 09:40 am (GMT +6)
+echo =======================================
+echo.
+echo Still want to do the class?
+echo.
+pause
+start https://zoom.us/j/98896652894?pwd=bWp0Ym5WQ3RIQ0txd3pzK252VW1mUT09
+goto end
+
+:5G_Math
+cls
+echo Class Schedule
+echo =======================================
+echo Class          : V
+echo Section        : Green
+echo Day            : SU
+echo Start Timing   : 02:00 pm (GMT +6)
+echo Finishing Time : 02:40 pm (GMT +6)
+echo =======================================
+echo.
+echo Still want to do the class?
+echo.
+pause
+start https://zoom.us/j/91627494682?pwd=MCs5TVA4SUYzTE92NWNCcnhRZjNlZz09
+goto end
+
+:5I_Math
+cls
+echo Class Schedule
+echo =======================================
+echo Class          : V
+echo Section        : Indigo
+echo Day            : MO
+echo Start Timing   : 02:00 pm (GMT +6)
+echo Finishing Time : 02:40 pm (GMT +6)
+echo =======================================
+echo.
+echo Still want to do the class?
+echo.
+pause
+start https://zoom.us/j/94557609163?pwd=TFZtMHJmVEF4MXdFYk1BVVQwZ2Z5QT09
+goto end
+
+:5M_Math
+cls
+echo Class Schedule
+echo =======================================
+echo Class          : IV
+echo Section        : Maroon
+echo Day            : TU
+echo Start Timing   : 11:00 am (GMT +6)
+echo Finishing Time : 11:40 am (GMT +6)
+echo =======================================
+echo.
+echo Still want to do the class?
+echo.
+pause
+start https://zoom.us/j/91333659503?pwd=K09zUGVDeGFpKzlINUcyc2xlNkdMQT09
+goto end
+
+:5O_Math
+cls
+echo Class Schedule
+echo =======================================
+echo Class          : V
+echo Section        : Orange
+echo Day            : WD
+echo Start Timing   : 03:00 pm (GMT +6)
+echo Finishing Time : 03:40 pm (GMT +6)
+echo =======================================
+echo.
+echo Still want to do the class?
+echo.
+pause
+start https://zoom.us/j/99941467709?pwd=bHlxampYVEJUdGFOSm5Kb3pPdFpnUT09
+goto end
+
+:5R_Math
+cls
+echo Class Schedule
+echo =======================================
+echo Class          : IV
+echo Section        : Red
+echo Day            : MO
+echo Start Timing   : 10:00 am (GMT +6)
+echo Finishing Time : 10:40 am (GMT +6)
+echo =======================================
+echo.
+echo Still want to do the class?
+echo.
+pause
+start https://zoom.us/j/98449709818?pwd=bHpxS1lHNHdwZmFhMVBJWVRUUjlVZz09
+goto end
+
+:: End Class V
 
 
 
